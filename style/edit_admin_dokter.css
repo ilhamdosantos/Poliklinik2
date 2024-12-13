@@ -1,0 +1,113 @@
+/* Styling untuk tabel daftar dokter */
+.table {
+    width: 100%;
+    margin-top: 100px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table-striped tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Styling untuk tombol */
+.btn-warning, .btn-danger {
+    padding: 6px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: inline-block;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: #fff;
+    border: 1px solid #ffc107;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: 1px solid #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    color: white;
+}
+
+/* Styling untuk form input */
+.form-label {
+    font-weight: 500;
+    color: #555;
+}
+
+.form-control {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 14px;
+}
+
+.form-select {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 14px;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+/* Styling untuk form section */
+.container-fluid {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+h2, h3 {
+    font-weight: 600;
+    color: #333;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .table th, .table td {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .container-fluid {
+        padding: 15px;
+    }
+
+    .form-control, .form-select {
+        font-size: 13px;
+    }
+}

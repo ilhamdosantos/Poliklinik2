@@ -1,0 +1,5 @@
+/* Menandai item yang aktif dengan warna berbeda */
+.nav-link.active {
+    background-color: #007bff;
+    color: white;
+}
